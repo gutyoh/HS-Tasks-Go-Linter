@@ -1,5 +1,3 @@
-# The configuration was made using the following table: https://bit.ly/3Kvz0nK
-
 run:
   tests: false
 
