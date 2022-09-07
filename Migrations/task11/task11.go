@@ -82,6 +82,7 @@ func main() {
 	checkColumnsExists(db) // DO NOT delete this line, it checks if the column was added!
 }
 
+//::footer
 const TableName = "country_statistics"
 
 func checkTablesExists(db *gorm.DB) {

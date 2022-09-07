@@ -56,6 +56,7 @@ func main() {
 	checkTablesExists(db)
 }
 
+//::footer
 func checkTablesExists(db *gorm.DB) {
 	if !db.Migrator().HasTable("tracks") {
 		log.Fatal("Table 'tracks' not found")
